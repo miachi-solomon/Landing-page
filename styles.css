@@ -84,6 +84,7 @@ li {
 
 #about {
     height: 400px;
+    margin-bottom: 150px;
 }
 
 .about-flex-container {
@@ -94,7 +95,7 @@ li {
 .about-cards-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .about-card {
@@ -104,6 +105,7 @@ li {
 .about-card-image {
     height: 60%;
     width: 100%;
+    border-radius: 5px;
 }
 
 .about-text {
@@ -114,9 +116,34 @@ li {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .about-card-text {
     color: #6f7072;
     font-size: 16px;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #4f4f53;
+}
+
+.quote-text-container {
+    width: 800px;
+}
+
+.right-align-quote-authur {
+    text-align: right;
+    font-size: 20px;
 }
