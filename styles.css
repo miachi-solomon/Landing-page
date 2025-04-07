@@ -81,3 +81,42 @@ li {
     padding: 10px 30px;
     border-radius: 5px;
 }
+
+#about {
+    height: 400px;
+}
+
+.about-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-card {
+    width: 250px;
+}
+
+.about-card-image {
+    height: 60%;
+    width: 100%;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-us-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.about-card-text {
+    color: #6f7072;
+    font-size: 16px;
+}
